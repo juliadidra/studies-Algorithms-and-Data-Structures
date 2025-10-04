@@ -6,7 +6,7 @@ def searchMinorElement(arr):
     minorIndex = 0 # initialize with the minor index, which is 0
 
     for i in range(1, len(arr)): # iterate trhough the array (starting from 1)
-        if arr[i] < minor: # compares if the current element is less than the minor (in the first iteration, the comparison is with the first element of the array)
+        if arr[i] < minor: # compares if the current element is less than the minor 
 
             minor = arr[i] # if the condition is true, the current element is the new minor
             minorIndex = i #update the minor index with the current index
